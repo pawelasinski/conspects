@@ -18,27 +18,27 @@ sudo apt-get install -y git
 ```zsh
 git config
 ```  
-	--global - использовать глобальный файл конфигурации
-	--system - использовать системный файл конфигурации
-	--local - использовать файл конфигурации репозитория. Локальные настройки имеют приоритет над глобальными и системными настройками.
-	-f, --file <файл> - использовать указанный файл конфигурации
+	--global  # использовать глобальный файл конфигурации
+	--system  # использовать системный файл конфигурации
+	--local  # использовать файл конфигурации репозитория. Локальные настройки имеют приоритет над глобальными и системными настройками.
+	-f, --file <file_name>  # использовать указанный файл конфигурации
 	
-	--get <key> - get value
-	--get-all <key> - get all values
-	--add <key <value> - add new a variable
-	--unset <key> - remove a variable
-	--unset-all <key> - remove all matches
-	-l, --list - show all list of variables
-	-e, --edit - open in editor
+	--get <key>  # get value
+	--get-all <key>  # get all values
+	--add <key <value>  # add new a variable
+	--unset <key>  # remove a variable
+	--unset-all <key>  # remove all matches
+	-l, --list  # show all list of variables
+	-e, --edit  # open in editor
 
-|Key|Value|
-|:---|:---|
-|user.name|<user_name>|
-|user.email|<user_email>|
-|core.editor|vim|
-|commit.template|"add" # can be both a path and some text|
-|alias.st|"status"|
-|core.longpaths|true|
+| Key             | Value                                     |
+| :-------------- | :---------------------------------------- |
+| user.name       | <user_name>                               |
+| user.email      | <user_email>                              |
+| core.editor     | vim                                       |
+| commit.template | "add"  # can be both a path and some text |
+| alias.st        | "status"                                  |
+| core.longpaths  | true                                      |
 
 
 ### INIT
@@ -46,7 +46,8 @@ git config
 ```zsh
 mkdir <dir_name>
 ```
-	Пустые директории в git не добавляются в принципе. Физически директория находится в рабочей директории, но её нет в git, и он её игнорирует.
+
+Пустые директории в git не добавляются в принципе. Физически директория находится в рабочей директории, но её нет в git, и он её игнорирует.
 
 В <dir_name>:
 ```zsh
@@ -69,13 +70,14 @@ git push -u origin main
 
 ### РАБОТА С УДАЛЕННЫМ РЕПОЗИТОРИЕМ
 
+Чтобы просмотреть список настроенных удалённых репозиториев
 ```zsh
-git remote  # чтобы просмотреть список настроенных удалённых репозиториев
+git remote
 ```
 	-v  # чтобы просмотреть адреса для чтения и записи, привязанные к репозиторию
-    show <remote-name>  # получить побольше информации об одном из удалённых репозиториев
-    rename <old-name> <new-name>
-    remove <remote-name>
+    show <remote_name>  # получить побольше информации об одном из удалённых репозиториев
+    rename <old_name> <new_name>
+    remove <remote_name>
 
 ```zsh
 git push <remote_name> -d, --delete <branch_name>

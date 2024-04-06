@@ -39,8 +39,6 @@ source ~/.bash_profile
 ssh <user_name>@<remote_host>
 ```
 
----
-
 ### SCP
 
 ```zsh
@@ -75,8 +73,6 @@ ssh <user_name>@<remote_host> <command> > /path/to/local/file
 <command> | ssh <user_name_1>@<remote_host_1> 'scp - <user_name_2>@<remote_host_2>:/path/to/remote/file'
 ```
 
----
-
 ### FINGERPRINT
 
 При первом подключении появится сообщение:
@@ -99,8 +95,6 @@ Are you sure you want to continue connecting (yes/no)? yes
 
 Если fingerprint не меняется, то такое сообщение не будет появляться.
 
----
-
 ### ГЕНЕРАЦИЯ КЛЮЧЕЙ
 
 Для удобного подключения по SSH (и многим другим сервисам) без ввода пароля можно использовать ключи.
@@ -115,6 +109,7 @@ ssh-keygen
 	-t - вариант шифрования, например rsa.
 	-b - количество бит, длина ключа, например 4096.
 	-С - задать последнее поле публичного ключа в виде user@machine.
+	-f - задать имя файла, т.е. id_rsa_<new_name>
 
 В ключе последнее поле — `user@machine`. Оно не имеет никакого отношения к авторизации и служит только для удобства определения, где чей ключ. Это поле может быть поменяно (или даже удалено) без нарушения структуры ключа.
 
@@ -128,8 +123,6 @@ ssh-keygen -p
 ssh-keygen -R <remote_host>
 ```
 	Затем его можно найти на сервере в /etc/ssh/ssh_host_rsa_key.pub
-
----
 
 ### ЗАГРУЗКА ПУБЛИЧНОГО КЛЮЧА НА СЕРВЕР
 
@@ -154,8 +147,6 @@ cat ~/.ssh/id_rsa.pub | pbcopy
 ```
 и вставить в `~/.ssh/authorized_keys`.
 
----
-
 ### ЧТОБЫ ОТКЛЮЧИТЬ ПОДКЛЮЧЕНИЕ ПО ПАРОЛЮ
 
 1. 
@@ -172,8 +163,6 @@ AllowUsers <user_name> root # root можно оставить, так как в
 ```zsh
 sudo service ssh restart
 ```
-
----
 
 ### SSH-AGENT
 
@@ -202,23 +191,25 @@ ssh-add ~/.ssh/id_rsa
 	+ ~/.ssh/id_ed25519
 	+ ~/.ssh/identity
 
-Чтобы вывести список добавленных в агент ключей.
+Чтобы вывести список добавленных в агент ключей:
 ```zsh
 ssh-add -L
 ```
 
+Чтобы удалить из агента определенный и все ключи соответсвенно:
+```zsh
+ssh-add -d ~/.ssh/id_rsa
+ssh-add -D
+```
+
 > **Warning**
 > ssh-agent привязан к сессии.
-
----
 
 ### ФОРВАРДИНГ (ПРОБРОС) АВТОРИЗАЦИИ
 
 ```zsh
 ssh -A <user_name_1>@<remote_host_1> ssh <user_name_2>@<remote_host_2>
 ```
-
----
 
 ### SSH АЛИАСЫ
 
@@ -241,8 +232,6 @@ Port <port>
 ```zsh
 ssh <host_name>
 ```
-
----
 
 ### extra links
 
