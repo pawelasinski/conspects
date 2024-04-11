@@ -1,4 +1,5 @@
 [Learn Git Branching Sandbox](https://learngitbranching.js.org/?locale=ru_RU)
+
 ### INSTALLATION
 
 Mac:
@@ -12,7 +13,6 @@ sudo apt-get -y update && sudo apt-get -y upgrade
 sudo apt-get install -y git 
 ```
 
-
 ### CONFIG
 
 ```zsh
@@ -21,15 +21,15 @@ git config
 	--global  # использовать глобальный файл конфигурации
 	--system  # использовать системный файл конфигурации
 	--local  # использовать файл конфигурации репозитория. Локальные настройки имеют приоритет над глобальными и системными настройками.
-	-f, --file <file_name>  # использовать указанный файл конфигурации
+	-f,--file <file_name>  # использовать указанный файл конфигурации
 	
 	--get <key>  # get value
 	--get-all <key>  # get all values
 	--add <key <value>  # add new a variable
 	--unset <key>  # remove a variable
 	--unset-all <key>  # remove all matches
-	-l, --list  # show all list of variables
-	-e, --edit  # open in editor
+	-l,--list  # show all list of variables
+	-e,--edit  # open in editor
 
 | Key             | Value                                     |
 | :-------------- | :---------------------------------------- |
@@ -39,7 +39,6 @@ git config
 | commit.template | "add"  # can be both a path and some text |
 | alias.st        | "status"                                  |
 | core.longpaths  | true                                      |
-
 
 ### INIT
 
@@ -80,7 +79,7 @@ git remote
     remove <remote_name>
 
 ```zsh
-git push <remote_name> -d, --delete <branch_name>
+git push <remote_name> -d,--delete <branch_name>
 git push <remote_name> :<branch_name>
 ```
 
@@ -117,18 +116,17 @@ or
 git pull --rebase <origin (имя удаленного репозитория)> <main (имя ветки)>
 ```
 
-
 ### STASH
 
 ```zsh
 git stash push
 ```
-	-p|--patch -> git add -i
-	-S|--staged
-	-k|--keep-index|--no-keep-index
-	-u|--include-untracked
-	-a|--all
-	-m|--message <message>
+	-p,--patch -> git add -i
+	-S,--staged
+	-k,--keep-index;--no-keep-index
+	-u,--include-untracked
+	-a,--all
+	-m,--message <message>
 
 ```zsh
 git stash branch <branch_name>
@@ -138,17 +136,15 @@ git stash branch <branch_name>
 git stash list
 ```
 	+ log-options
-	git stash@{stash_number} = git stash apply <stash_number>
 
 ```zsh
 git stash show <stash_number>
 ```
 	+ diff-options
-	-u|--include-untracked|--only-untracked
+	-u,--include-untracked;--only-untracked
 
 ```zsh
 git stash apply <stash_number>
-git stash@{<stash_number>}
 ```
 
 ```zsh
@@ -162,9 +158,6 @@ git stash drop <stash_number>
 ```zsh
 git stash clear
 ```
-
----
-
 
 ### .gitignore
 

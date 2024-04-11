@@ -144,6 +144,7 @@
 * О сетевых технологиях:
 	* Куроуз Джеймс, Росс Кит - Компьютерные сети. Нисходящий подход
 	* [Введение в интернет | Hexlet](https://ru.hexlet.io/courses/internet-fundamentals)
+	* [История браузеров | BIG GEEK](https://youtu.be/S3chACq9dyo)
 	* Кратко обо всем:
 		* Кратко о [модели OSI](https://youtu.be/je0QFU7p5Oo)
 			* Кратко о [HTTP/S](https://youtu.be/C9T_7D12URI), [SSL/TLS](https://youtu.be/OmlkEhRHRTA)
@@ -232,6 +233,8 @@
 	- [Чем занимается DevOps-инженер](https://youtu.be/NtGN7Nz6I0c)
 	- [Стек для инженера данных](https://telegra.ph/Stek-dlya-inzhenera-dannyh-kakie-tehnologii-stoit-osvoit-v-pervuyu-ochered-08-29)
 	- [Кто такой архитектор и как им стать](https://tproger.ru/articles/kto-takoj-arhitektor-i-kak-im-stat/?utm_source=tg&utm_medium=post&utm_campaign=inn_arc&utm_content=tp)
+	- [Чем занимается тестировщик](https://youtu.be/liirXTlmmRY)
+	- [Чем занимается Frontend-разработчик](https://youtu.be/yO3Ep_bQYgw)
 	
 	- [Гид по спортивному программированию](https://tproger.ru/articles/competitive-programming-tips/?utm_medium=messenger&utm_source=telegram)
 	- [Сайты, на которых можно порешать задачи по программированию](https://tproger.ru/digest/competitive-programming-practice/?utm_medium=messenger&utm_source=telegram)

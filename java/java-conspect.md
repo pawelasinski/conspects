@@ -1,4 +1,4 @@
-![[JDK.png]]
+![](_java_pictures/JDK.png)
 
 Для проверки правильной установки компилятора Java:  
 ```zsh
@@ -11,7 +11,7 @@ javac -version
 1. Чтобы скомпелировать исходники в байткод:
 ```bash
 javac Draft.java
-javac -classpath lib.jar Draft.java  # Eсли нужно указать зависимые библиотеки.
+javac -classpath lib.jar Draft.java  # если нужно указать зависимые библиотеки
 ```
 Если нужно скомпелировать несколько, то указываем их через пробел.
 
@@ -25,7 +25,7 @@ javap Draft.class
 ```zsh
 java Draft
 java -classpath <path/to/dir/w/bytecode> Draft
-java -classpath lib.jar:draft.jar Draft  # Если нужно указать зависимые библиотеки (: - Linux, ; - Windows).
+java -classpath lib.jar:draft.jar Draft  # если нужно указать зависимые библиотеки (: - Linux, ; - Windows)
 ```
 Если программа состоит из нескольких классов, то все они должны быть доступны виртуальной машине.
 
@@ -33,18 +33,15 @@ java -classpath lib.jar:draft.jar Draft  # Если нужно указать з
 
 `jar`-архив — портабельный `ZIP`-архив с дополнительным файлом `MANIFEST`, содержащий метаинформацию о программе (имя программы, версия, имя главного класса).
 ```zsh
-# Создать такой архив
-jar cfe draft.jar Draft Draft.class ...
 
-# Посмотреть его содержимое
-jar tf draft.jar
+jar cfe draft.jar Draft Draft.class ...  # создать такой архив
 
-# Распаковать
-jar xf draft.jar
+jar tf draft.jar  # посмотреть его содержимое
 
-# Запустить, если имеется имя главного класса и если нет
-java -jar draft.jar
-java -classpath draft.jar Draft
+jar xf draft.jar  # распаковать
+
+java -jar draft.jar  # запустить, если имеется имя главного класса 
+java -classpath draft.jar Draft  # и если нет
 ```
 
 ---
