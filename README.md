@@ -35,11 +35,8 @@
 * О языках программирования:
 	* Python:
 		* Лучано Рамальо – Python. К вершинам мастерства
-		* [Comprehensive Python Cheatsheet](https://github.com/gto76/python-cheatsheet)
-			- [pycore](https://github.com/amaargiru/pycore)
-		* [Инди-курс программирования на Python | egoroffchannel](https://stepik.org/63085)
-		* [Основы Python = Простым языком | karpov.courses](https://karpov.courses/pythonzero)
-		* [Основы Python | Hexlet](https://ru.hexlet.io/courses/python-basics)
+		* [Comprehensive Python Cheatsheet](https://github.com/gto76/python-cheatsheet) + [pycore](https://github.com/amaargiru/pycore)
+		* [Инди-курс программирования на Python | egoroffchannel](https://stepik.org/63085) + [Основы Python | karpov.courses](https://karpov.courses/pythonzero) + [Основы Python | Hexlet](https://ru.hexlet.io/courses/python-basics)
 			* Строки:
 				* О кодировках:
 					* [Исчерпывающее руководство по Unicode и кодировке символов](https://tproger.ru/translations/unicode-and-encoding-python-guide/?)
