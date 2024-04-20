@@ -1,40 +1,40 @@
-# Ссылки на литературу, веб-источники и онлайн-курсы, которые использовались во время обучения
+# These are the sources that are used during my studies
 
-* Об операционных системах:
-	* [Лекция об устройстве операционной системы](https://youtu.be/hb9CTGSJm88)
+* ! Об операционных системах:
+	* Харольд Абельсон, Джеральд Джей Сассман — Структура и интерпретация компьютерных программ
+	* [Операционные системы | Hexlet](https://ru.hexlet.io/courses/operating_systems)
+	* [Operating Systems: Timeline and Family Tree](https://eylenburg.github.io/os_familytree.htm)
 	* Linux:
-		* [Linux для начинающих](https://www.youtube.com/playlist?list=PL874KddjzYd8d_A1mmUwxZ63MtJaSBXE1)
-		* [Основы командной строки | Хекслет](https://ru.hexlet.io/courses/cli-basics)
+		* [История появления Unix | Сергей Немчинский](https://youtu.be/adWe2d7546o)
+		* [Linux для начинающих | Компьютерные секреты](https://www.youtube.com/playlist?list=PL874KddjzYd8d_A1mmUwxZ63MtJaSBXE1)
+		* [Основы командной строки | Hexlet](https://ru.hexlet.io/courses/cli-basics)
 
 
-* О параллельном программировании:
-	* [Многопроцессность, многопоточность, асинхронность в Python](https://youtu.be/JIp14T9bvvc)
+* ! О параллельном программировании:
+	* [Многопроцессность, многопоточность, асинхронность в Python | Диджитализируй!](https://youtu.be/JIp14T9bvvc)
 
 
-* О принципах разработки:
+* ! О принципах разработки:
 	* Принципы ООП:
 		* [Принципы ООП: Инкапсуляция](https://youtu.be/EvGi6XDgV7w)
 		* [Принципы ООП: Наследование](https://youtu.be/eI0XzQw3V0Q)
 		* [Принципы ООП: Полиморфизм](https://youtu.be/Ay_GwOQWPs8)
 	* SOLID:
-		* [SOLID: SRP](https://youtu.be/O4uhPCEDzSo)
-			* 
-		* [SOLID: OCP](https://youtu.be/x5OtQiKOG-Q)
-			* 
-		* [SOLID: LSP](https://youtu.be/NqvwYcjrwdw)
-			* [Пример нарушения LSP](https://youtu.be/bb9HLu_rtyA)
-		* [SOLID: ISP](https://youtu.be/d9RJqf2o_Sw)
-			* 
-		* [SOLID: DIP](https://youtu.be/Bw6RvCSsETI)
-			* 
+		* [SOLID: SRP](https://youtu.be/O4uhPCEDzSo) + 
+		* [SOLID: OCP](https://youtu.be/x5OtQiKOG-Q) + 
+		* [SOLID: LSP](https://youtu.be/NqvwYcjrwdw) + 
+		* [SOLID: ISP](https://youtu.be/d9RJqf2o_Sw) + 
+		* [SOLID: DIP](https://youtu.be/Bw6RvCSsETI) + 
 	* [KISS](https://youtu.be/rix-fkrloq4)
 	* [YAGNI](https://youtu.be/Ot2eB07rjcI)
 	* [DRY](https://youtu.be/NWemqNMCesQ)
-	* [EAFP](https://youtu.be/f-GFxTlqD2Q)
+	* [EAFP vs. LBYL](https://youtu.be/f-GFxTlqD2Q)
+	* [Почему нельзя возвращать NULL](https://youtu.be/QwycPnpp6uQ)
 
 
 * О языках программирования:
 	* Python:
+		* Лучано Рамальо – Python. К вершинам мастерства
 		* [Comprehensive Python Cheatsheet](https://github.com/gto76/python-cheatsheet)
 			- [pycore](https://github.com/amaargiru/pycore)
 		* [Инди-курс программирования на Python | egoroffchannel](https://stepik.org/63085)
@@ -119,185 +119,148 @@
 		* [PEP 20](https://www.python.org/dev/peps/pep-0020/)
 		* [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 			* [Example Google Style Python Docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
-	* R:
+	* ! R:
 		* [Основы программирования на R | Bioinformatics Institute](https://stepik.org/497)
 			* [Анализ данных в R, часть 1 | Bioinformatics Institute](https://stepik.org/course/129)
 			* [Анализ данных в R, часть 2 | Bioinformatics Institute](https://stepik.org/course/724)
-	* Golang:
-		* [Программирование на Golang](https://stepik.org/course/54403)
+	* ! Golang:
 		* [Основы Go | Hexlet](https://ru.hexlet.io/courses/go-basics)
 
 
-* О языках разметки:
+* ! О языках разметки:
 	* [Markdown](https://www.markdownguide.org)
 
 
-* О системах контроля версий:
+* ! О системах контроля версий:
 	* Git:
-		* Кратко о [Git и GitHub](https://youtu.be/EeARyFrZsnU?feature=shared)
+		* [Кратко о Git и GitHub | Merion Academy](https://youtu.be/EeARyFrZsnU) + [GIT PURR! Git Commands Explained with Cats!](https://girliemac.com/blog/2017/12/26/git-purr/)
 		* [Введение в Git | Hexlet](https://ru.hexlet.io/courses/intro_to_git)
 		- [An interactive git visualization and tutorial](https://github.com/pcottle/learnGitBranching)
-			* [Git - инструмент для совместной работы с нуля и до регламента в команде | ШРИ](https://www.youtube.com/watch?v=XfpNNPo5ypk&list=WL&index=4)
-			* [GIT PURR! Git Commands Explained with Cats!](https://girliemac.com/blog/2017/12/26/git-purr/)
+		* [Git - инструмент для совместной работы с нуля и до регламента в команде | ШРИ](https://www.youtube.com/watch?v=XfpNNPo5ypk&list=WL&index=4)
 
 
-* О сетевых технологиях:
-	* Куроуз Джеймс, Росс Кит - Компьютерные сети. Нисходящий подход
+* ! О сетях:
+	* Куроуз Джеймс, Росс Кит — Компьютерные сети. Нисходящий подход
 	* [Введение в интернет | Hexlet](https://ru.hexlet.io/courses/internet-fundamentals)
 	* [История браузеров | BIG GEEK](https://youtu.be/S3chACq9dyo)
-	* Кратко обо всем:
-		* Кратко о [модели OSI](https://youtu.be/je0QFU7p5Oo)
-			* Кратко о [HTTP/S](https://youtu.be/C9T_7D12URI), [SSL/TLS](https://youtu.be/OmlkEhRHRTA)
-				* [Лекция о HTTP/S-протоколах](https://youtu.be/yUHlrabtEaU)
-				* [HTTP Code Cats](https://http.cat)
-			* Кратко о [TCP и UDP](https://youtu.be/yMSJKBQINAc), [Telnet, SSH, консоли и терминале](https://youtu.be/HTlqTogeXoQ)
-			* Кратко об [IP](https://youtu.be/6tFGoiok0u8), [DHCP](https://youtu.be/XPRYaGCkXJ8), [DNS](https://youtu.be/t2NMbSarXC4), [IP-телефонии](https://youtu.be/Z4EuDqQ-8kU)
-			- Кратко об [Ethernet](https://youtu.be/jLGadArowCE), [MAC-адресе](https://youtu.be/C3Ma_QH_-_o), [маршрутизаторе, коммутаторе и хабе](https://youtu.be/Bwg-om5NnmQ)
-		- Кратко о [SMTP; POP3 и IMAP](https://youtu.be/e0U6-vhWX3s)
-		- Кратко об [API](https://www.youtube.com/watch?v=fXa_2rllZTI)
-		- Кратко о [ping](https://www.youtube.com/watch?v=Y6o5OhGfGKQ)
-		- Кратко о [WebSockets](https://youtu.be/19d4AXt3dSI) 
-		- Кратко о [Firewall](https://youtu.be/kgWLnELcjCY), [VPN](https://youtu.be/TNJxATppH4E) и [сетевых атаках](https://youtu.be/T_iycKFPGEM)
+	* [Кратко о модели OSI | Merion Academy](https://youtu.be/je0QFU7p5Oo), and so on.
+		- [HTTP Code Cats](https://http.cat)
 
 
-* О базах данных:
-	* [Первые три нормальных формы, нормализация и денормализация БД](https://youtu.be/0kq99Y8m0gw?feature=shared)
-		* Нормализация — устранение избыточности.
-	* Кратко о [SQL](https://youtu.be/bv5UqdWm-5k)
-		* [Основы реляционных баз данных | Hexlet](https://ru.hexlet.io/courses/rdb-basics)
-		* [Основы SQL | Hexlet](https://ru.hexlet.io/courses/sql-basics)
-		* [Интерактивный тренажер по SQL](https://stepik.org/course/63054/syllabus)
+* ! О базах данных:
+	* [Первые три нормальных формы, нормализация и денормализация БД | Диджитализируй!](https://youtu.be/0kq99Y8m0gw)
+	* [Кратко о SQL | Merion Academy](https://youtu.be/bv5UqdWm-5k)
+		* Е. П. Моргунов — PostgreSQL. Основы языка SQL
+		- [Основы реляционных баз данных | Hexlet](https://ru.hexlet.io/courses/rdb-basics) + [Основы SQL | Hexlet](https://ru.hexlet.io/courses/sql-basics)
+		- [Симулятор SQL | karpov.courses](https://karpov.courses/simulator-sql) + [Интерактивный тренажер по SQL | Дальневосточный федеральный университет](https://stepik.org/course/63054/syllabus)
 		* [Туториал по MySQL](https://metanit.com/sql/mysql/)
 			* [Типы данных MySQL](https://metanit.com/sql/mysql/2.3.php)
-			* [Функции для работы со строками](https://metanit.com/sql/mysql/6.1.php)
-			* [Функции для работы с числами](https://metanit.com/sql/mysql/6.2.php)
-			* [Функции для работы с датами и временем](https://metanit.com/sql/mysql/6.3.php)
+			* [Функции для работы со строками](https://metanit.com/sql/mysql/6.1.php) + [Функции для работы с числами](https://metanit.com/sql/mysql/6.2.php) + [Функции для работы с датами и временем](https://metanit.com/sql/mysql/6.3.php)
 		* [Туториал по PostgreSQL](https://metanit.com/sql/postgresql/)
 			* [Типы данных в PostgreSQL](https://metanit.com/sql/postgresql/2.3.php)
-	* Кратко о [NoSQL](https://youtu.be/IBzTDkYNB7I)
-		* **БД "ключ-значение"**: используют RAM; подходит для пользовательских сессий, кеша, корзин интернет-магазина; `Redis`, `Memcached`, `Amazon DynamoDB`
-		* **Колоночные БД**: берем key-value БД и делаем так, чтобы в значении могли храниться несколько столбцов сразу; подходит для хранения логов, различных аналитических приложений, где данные хранятся в большом количестве; `Apache Cassandra`, `Apache HBase`, `ClickHouse`
-		* **Документориентированные БД**: универсальные; коллекция документов key-value; для различных аналитических приложений, где данные хранятся в большом количестве; XML, YAML, JSON; `MongoDB`, `Amazon DynamoDB`, `CouchDB`
-		* **Графовые БД**: упор на то, как данные связаны друг с другом; для алгоритмов рекомендаций, социальных сетей, системного администрирования; `neo4j`, `Dgraph`
-		* **Поисковые БД**: работают, как предметный указатель в конце книги; для анализа и хранения логов, поиска в интернете; `Elasticsearch`, `Solr`, `Algolia`
-		* **БД временных рядов**: `InfluxDB`, `Prometheus`
+	* [Кратко о NoSQL | Merion Academy](https://youtu.be/IBzTDkYNB7I)
+		* [Основы Redis | Hexlet](https://ru.hexlet.io/courses/redis-basics)
 
 
-- О DevOps:
-	- [Кратко о Terraform](https://youtu.be/ph4iNA0Uuko?feature=shared)
-	- [Кратко об Ansible](https://youtu.be/23Zec3ORJOY?feature=shared)
-	- [Кратко о CI/CD](https://youtu.be/Y-hYifHkjMs?feature=shared)
-	- [Кратко о Jenkins](https://youtu.be/CtHcrmRplJI)
-	- [Кратко о Docker](https://youtu.be/aZTL2zRmOnA)
-	- [Кратко о Kubernetes](https://youtu.be/klmpiHLSuXA)
+- ! О DevOps:
+	- [Кратко о Terraform | Merion Academy](https://youtu.be/ph4iNA0Uuko?feature=shared)
+	- [Кратко об Ansible | Merion Academy](https://youtu.be/23Zec3ORJOY?feature=shared)
+	- [Кратко о CI/CD | Merion Academy](https://youtu.be/Y-hYifHkjMs?feature=shared)
+	- [Кратко о Jenkins | Merion Academy](https://youtu.be/CtHcrmRplJI)
+	- [Кратко о Docker | Merion Academy](https://youtu.be/aZTL2zRmOnA)
+	- [Кратко о Kubernetes | Merion Academy](https://youtu.be/klmpiHLSuXA)
 
 
-* Об инженерии данных:
+* ! Об инженерии данных:
 	* Об ETL/ELT:
-		* [Кратко о подходах ETL и ELT](https://youtu.be/4EqriO-2aZM)
-		* [Cron и его альтернативы](https://youtu.be/NmVfCuSM_0k)
-			* 
+		* [Кратко о подходах ETL и ELT | karpov.courses](https://youtu.be/4EqriO-2aZM)
 
 
-- Математика
-	- [Логика : учебник / Г. И. Малыхина. - Минск : Выш. шк., 2013. - 334 с. : ил.](https://belkniga.by/catalog/nauchnaya_i_tekhnicheskaya_literatura/istoricheskaya_literatura/logika9789850614483/)
+- ! Математика
+	- [Основы логики](https://youtu.be/DkP2MYByG4o) + Г. И. Малыхина — Логика
 	- [Дискретная математика: подсчеты, графы, случайные блуждания | Высшая школа экономики](https://www.coursera.org/learn/discrete-math)
-	- [Справочник по элементарной математике / М. Я. Выгодский. - М., 1971. - 416 с. : ил.](https://www.ozon.ru/product/2019-spravochnik-po-elementarnoy-matematike-160222148/?stat=YW5fMQ%3D%3D)
-	- [Справочник по высшей математике / М. Я. Выгодский. - М., 1977. - 872 с. : ил.](https://www.ozon.ru/product/spravochnik-po-vysshey-matematike-6260674/?stat=YW5fMQ%3D%3D)
+	- Введение в анализ, элементарная алгебра, дискретная математика | ШАД Хелпер
+	- М. Я. Выгодский — Справочник по элементарной математике + Справочник по высшей математике
+	- В. В. Зайцев, В. В. Рыжков, М. И. Сканави — Элементарная математика
 	- [Теория вероятностей и математическая статистика : учебно-метод. пособие / А. В. Аксенчик. - Минск : БГУИР, 2011. - 184 с. : ил.](https://libeldoc.bsuir.by/handle/123456789/630)
 		- [Теория вероятностей и математическая статистика : сборник задач по типовому расчету / сост. А. В. Аксенчик [и др.]. - Минск : БГУИР, 2007. - 76 с. : ил.](https://libeldoc.bsuir.by/handle/123456789/916)
-	* [Основы статистики, часть 1 | Анатолий Карпов, Bioinformatics Institute](https://stepik.org/course/76/syllabus)
-		* [Основы статистики, часть 2 | Анатолий Карпов, Bioinformatics Institute](https://stepik.org/course/524/syllabus)
-		* [Основы статистики, часть 3 | Анатолий Карпов, Bioinformatics Institute](https://stepik.org/course/2152/syllabus)
+	* [Основы статистики, часть 1 | Анатолий Карпов, Bioinformatics Institute](https://stepik.org/course/76) + [Основы статистики, часть 2 | Анатолий Карпов, Bioinformatics Institute](https://stepik.org/course/524) + [Основы статистики, часть 3 | Анатолий Карпов, Bioinformatics Institute](https://stepik.org/course/2152)
+	* [Сущность матанализа | 3Blue1Brown](https://youtube.com/playlist?list=PLVjLpKXnAGLVbrcJdDb0a2RS6MmRCgxJz) + [Сущность линейной алгебры | 3Blue1Brown](https://youtube.com/playlist?list=PLVjLpKXnAGLXPaS7FRBjd5yZeXwJxZil2)
+	* [Математика для DS | karpov.courses](https://karpov.courses/mathsds)
+	* Кэвин П. Мэрфи — Вероятностное машинное обучение. Введение
 
 
-* Дополнительно:
-	* [Основы логики](https://youtu.be/DkP2MYByG4o)
-	
+* ! Дополнительно:
 	- [Элементы блок-схем](http://videoege.ru/informatika/elementy-blok-shem)
-	
-	- [Компилятор vs. интерпретатор: ключевые отличия](https://youtu.be/_wXo8MbPeUE)
+	  
+	- [Компилятор vs. интерпретатор: ключевые отличия | Merion Academy](https://youtu.be/_wXo8MbPeUE)
 	- [Императивное и декларативное программирование простым языком](https://tproger.ru/experts/imperative-and-declarative-programming/)
 	- [Интроспекция и рефлексия простым языком](https://tproger.ru/translations/programming-concepts-introspection-reflection/)
 	- [Модуль, пакет, библиотека, фреймворк: разбираемся в разнице](https://tproger.ru/articles/modul-paket-biblioteka-frejmvork-razbiraemsya-v-raznice)
 	
 	- [Кратко о методологиях AGILE и SCRUM](https://youtu.be/5RiudDgvlBw)
+	- [Стена технического долга: наглядная альтернатива багтрекеру](https://tproger.ru/translations/wall-of-technical-debt/)
 	  
-	- [Почему монолит предпочтительней микросервисов?](https://youtu.be/yK8UzcubUF0?feature=shared)
-	- [Общо про микросервисы](https://youtu.be/rCbdQc42eCw)
+	- [Почему монолит предпочтительней микросервисов | Сергей Немчинский](https://youtu.be/yK8UzcubUF0) + [Общо про микросервисы | Merion Academy](https://youtu.be/rCbdQc42eCw)
 	  
-	- [Что такое язык программирования Java](https://youtu.be/cqXsw-vSIWw)
-	- [Что такое язык программирования Golang](https://youtu.be/HQULZLebAvM)
+	- [Что такое язык программирования Java | Сергей Немчинский](https://youtu.be/cqXsw-vSIWw) + [Кратко о Java | Merion Academy](https://youtu.be/MaeJLU6k3_c)
+	- [Что такое язык программирования Golang | Сергей Немчинский](https://youtu.be/HQULZLebAvM)
 	
 	- [Чем отличаются друг от друга аналитики](https://youtu.be/0lYtHB-skys)
-	- [Чем занимается DevOps-инженер](https://youtu.be/NtGN7Nz6I0c)
+	- [Чем занимается DevOps-инженер | Merion Academy](https://youtu.be/NtGN7Nz6I0c)
 	- [Стек для инженера данных](https://telegra.ph/Stek-dlya-inzhenera-dannyh-kakie-tehnologii-stoit-osvoit-v-pervuyu-ochered-08-29)
 	- [Кто такой архитектор и как им стать](https://tproger.ru/articles/kto-takoj-arhitektor-i-kak-im-stat/?utm_source=tg&utm_medium=post&utm_campaign=inn_arc&utm_content=tp)
-	- [Чем занимается тестировщик](https://youtu.be/liirXTlmmRY)
-	- [Чем занимается Frontend-разработчик](https://youtu.be/yO3Ep_bQYgw)
+	- [Чем занимается тестировщик | Merion Academy](https://youtu.be/liirXTlmmRY)
+	- [Чем занимается Frontend-разработчик | Merion Academy](https://youtu.be/yO3Ep_bQYgw)
 	
-	- [Гид по спортивному программированию](https://tproger.ru/articles/competitive-programming-tips/?utm_medium=messenger&utm_source=telegram)
-	- [Сайты, на которых можно порешать задачи по программированию](https://tproger.ru/digest/competitive-programming-practice/?utm_medium=messenger&utm_source=telegram)
+	- [Гид по спортивному программированию](https://tproger.ru/articles/competitive-programming-tips) + [Сайты, на которых можно порешать задачи по программированию](https://tproger.ru/digest/competitive-programming-practice)
 	
 	- [Зачем работадатели требуют наличие высшего образования и почему это оправданно](https://habr.com/ru/post/688016/)
-	- [Почему идеальный английский не обязателен для работы в зарубежной компании](https://youtu.be/yzpGAEgW8Q4)
 	- [Нужна ли математика программисту](https://youtu.be/SGsrpifFe7c)
+	- [Почему идеальный английский не обязателен для работы в зарубежной компании](https://youtu.be/yzpGAEgW8Q4)
 	  
-	- [Как ставить правильные эстимейты](https://youtu.be/D-E226OLFx0)
-	- [Как вести записи, чтобы всё понять и запомнить](https://vc.ru/life/315774-kak-vesti-zapisi-chtoby-vse-ponyat-i-zapomnit-chetyre-prostyh-sposoba)
-		- [Философия и практика Obsidian — организация знаний и жизни  | Диджитализируй!](https://youtu.be/unvwJRgX2bs?feature=shared)
-	- Как учиться программированию эффективно [1](https://youtu.be/BxJI0RdLeTE), [2](https://youtu.be/OxgYIkv54yk)
+	- [Как ставить правильные эстимейты | Сергей Немчинский](https://youtu.be/D-E226OLFx0)
+	- [Как вести записи, чтобы всё понять и запомнить](https://vc.ru/life/315774-kak-vesti-zapisi-chtoby-vse-ponyat-i-zapomnit-chetyre-prostyh-sposoba) + [Философия и практика Obsidian — организация знаний и жизни | Диджитализируй!](https://youtu.be/unvwJRgX2bs)
+	- Как учиться программированию эффективно | Сергей Немчинский [1](https://youtu.be/BxJI0RdLeTE), [2](https://youtu.be/OxgYIkv54yk)
 	
-	- [Советы для начинающих программистов](https://nuancesprog.ru/p/12837/)
-		- [Неочевидные ошибки в обучении на программиста](https://youtu.be/NMhccpdRVO4)
+	- [Советы для начинающих программистов](https://nuancesprog.ru/p/12837/) + [Неочевидные ошибки в обучении на программиста | Сергей Немчинский](https://youtu.be/NMhccpdRVO4)
 	
-	- [О фрилансе](https://youtu.be/ayOum95vI3M)
+	- [О фрилансе | Сергей Немчинский](https://youtu.be/ayOum95vI3M)
 	
 	- [«Главная ошибка собеса — подгонять ответы». Рекрутеры рассказали о найме в IT](https://bbbl.dev/articles/inner-hr)
-	- [Как правильно говорить на собеседовании о зарплате](https://vc.ru/hr/74192-kak-pravilno-govorit-na-sobesedovanii-o-zarplate)
-		- [«Почему такая большая вилка?» — как работодатели формируют зарплаты в IT](https://tproger.ru/articles/pochemu-takaja-bolshaja-vilka-kak-rabotodateli-formirujut-zarplaty-v-it/)
+	  
+	- [Как правильно говорить на собеседовании о зарплате](https://vc.ru/hr/74192-kak-pravilno-govorit-na-sobesedovanii-o-zarplate) + [«Почему такая большая вилка?» — как работодатели формируют зарплаты в IT](https://tproger.ru/articles/pochemu-takaja-bolshaja-vilka-kak-rabotodateli-formirujut-zarplaty-v-it/)
 	
 	- [Как адаптироваться к работе в IT-компании](https://rb.ru/opinion/it-kak-proshe-adaptirovatsya/)
 	- [Как быть успешным джуном и не завалить испытательный срок](https://blogs.devby.io/posts/good-junior)
 	
 	- [Как задавать тупые вопросы и не попасть впросак](https://blogs.devby.io/posts/tupye-voprosy)
 	- [Как делать задачи, от которых тошнит](https://devby.io/blogs/posts/boring-task)
-	  
-	- [«Постоянные качели». Айтишники рассказали о своем синдроме самозванца на удаленке](https://bbbl.dev/articles/samozvanec)
-	
-	- [Что делать, если в наследство достался некачественный код](https://tproger.ru/experts/bad-code-heritage/)
+	- [Что делать, если в наследство достался некачественный код](https://tproger.ru/experts/bad-code-heritage/) + [Легаси: поддерживать нельзя переписать](https://tproger.ru/articles/legasi--podderzhivat-nelzya-perepisat?utm_source=tg&utm_medium=post&utm_campaign=legacy&utm_content=zen_of_python)
 	- [Универсальные подходы к решению любой IT проблемы](https://youtu.be/8FR4CPRffPM?feature=shared)
-	
-	- [Стена технического долга: наглядная альтернатива багтрекеру](https://tproger.ru/translations/wall-of-technical-debt/)
-	
-	- [Минусы работы программистом](https://youtu.be/NCwZu7B1LB4)
 	  
-	- [Работа != жизнь: как «тихое увольнение» помогает восстановить личную продуктивность](https://bbbl.dev/articles/what-is-quiet-quitting)  
+	- Код-ревью и требования к коду джуна, мидла и сеньора [1](https://youtu.be/cT4DxY68K4w), [2](https://tproger.ru/articles/pyat-pravil-kod-revyu-dlya-stazhyorov-dzhunov-i-midlov)
+	- [Как давать обратную связь начинающим разработчикам: Советы от Яндекс Практикума](https://tproger.ru/articles/how-to-give-feedback/) + [Советы, как давать грамотный фидбэк, чтобы никого не обидеть](https://proglib.io/p/14-sovetov-kak-davat-gramotnyy-fidbek-chtoby-nikogo-ne-obidet-2022-10-04)
 	  
-	- Код-ревью и требования к коду джуна, мидла и сеньора [1](https://youtu.be/cT4DxY68K4w), [2](https://tproger.ru/articles/pyat-pravil-kod-revyu-dlya-stazhyorov-dzhunov-i-midlov%20?utm_source=tg&utm_medium=post&utm_campaign=code_review&utm_content=mobi_dev)
-	- [Как давать обратную связь начинающим разработчикам: Советы от Яндекс Практикума](https://tproger.ru/articles/how-to-give-feedback/)
-		- [Советы, как давать грамотный фидбэк, чтобы никого не обидеть](https://proglib.io/p/14-sovetov-kak-davat-gramotnyy-fidbek-chtoby-nikogo-ne-obidet-2022-10-04)
-	
-	- [Чем тимлид отличается от техлида](https://youtu.be/HhJwetTLTVg)
-	- [Черты эффективного лидерства]([https://asana.com/ru/resources/qualities-of-a-leader](https://asana.com/ru/resources/qualities-of-a-leader))
-	- [Легаси: поддерживать нельзя переписать](https://tproger.ru/articles/legasi--podderzhivat-nelzya-perepisat?utm_source=tg&utm_medium=post&utm_campaign=legacy&utm_content=zen_of_python)
+	 - [Чем тимлид отличается от техлида | Сергей Немчинский](https://youtu.be/HhJwetTLTVg) + [Черты эффективного лидерства]([https://asana.com/ru/resources/qualities-of-a-leader](https://asana.com/ru/resources/qualities-of-a-leader))
+	   
+	- [«Постоянные качели». Айтишники рассказали о своем синдроме самозванца на удаленке](https://bbbl.dev/articles/samozvanec)
+	- [Минусы работы программистом | Сергей Немчинский](https://youtu.be/NCwZu7B1LB4)
+	- [Работа != жизнь: как «тихое увольнение» помогает восстановить личную продуктивность](https://bbbl.dev/articles/what-is-quiet-quitting)
 	  
 	- [Чего вам не хватает для карьерного роста](https://blogs.devby.io/posts/kariera-rost)
 	- [Страх или лень? Как не бояться ответственности на любом этапе карьеры](https://blogs.devby.io/posts/otvetstvennost)
 	- [Советы эксперта, чтобы повысить зарплату ](https://tproger.ru/articles/kak-pravilno-prosit-povyweniya-zarplaty-sovety-eksperta/)
 	- [«Вы теряете навыки, оставаясь на одном месте»: Эйчар рассказала, как часто надо менять работу](https://bbbl.dev/articles/how-often-do-you-need-to-change-jobs)
 	  
-	- [Зачем разработчику личный план развития и как его составить](https://tproger.ru/articles/self-development-plan/) 
-	- [Как совмещать самообразование с работой](https://blogs.devby.io/posts/work-study)
+	- [Зачем разработчику личный план развития и как его составить](https://tproger.ru/articles/self-development-plan/) + [Как совмещать самообразование с работой](https://blogs.devby.io/posts/work-study)
 	
 	- [Советы для программиста, которые сберегут его зрение](https://tproger.ru/articles/7-prostyh-sovetov-dlja-programmista-kotorye-sberegut-ego-zrenie)
 
 
-* Интересное:
+* ! Интересное:
 	* [Почему список в кортеже ведет себя странно в Python](https://habr.com/ru/company/domclick/blog/506138/)
-	  
 	* [Генерировать случайные числа гораздо сложнее, чем вы думаете](https://nuancesprog.ru/p/14619/)
-	* [Самые странные и сложные языки программирования](https://youtu.be/LvEmdDGA1gg)
-	  
-	* [Как хранить пароли и ключи в коде проектов](https://youtu.be/Y9MRCxq4DIc)
-	* [Почему нельзя возвращать NULL](https://youtu.be/QwycPnpp6uQ)
+	* [Самые странные и сложные языки программирования | Merion Academy](https://youtu.be/LvEmdDGA1gg)
+	* [Как хранить пароли и ключи в коде проектов | Диджитализируй](https://youtu.be/Y9MRCxq4DIc)
+	* [Шифруем файлы и пароли с GPG и pass | Диджитализируй](https://youtu.be/I2mwqC6HGGE)

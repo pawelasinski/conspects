@@ -45,10 +45,9 @@ https://docs-python.ru/tutorial/ustanovka-python/ustanovka-ubuntu-debian-ishodni
 ```
 
 ```zsh
-make -j8
+make -j8  # 8 - количество ядер
 make test
 ```
-	8 - количество ядер
 
 ```zsh
 make altinstall

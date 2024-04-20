@@ -1,3 +1,5 @@
+### ...
+
 В некоторые каталоги попасть очень тяжело и программы в них обновляют медленно. Связано это с тем, что разработчики стараются добавлять туда только проверенный софт.
 В других всё происходит просто и быстро. В любом случае необходимо пройти некоторую процедуру, после которой программа будет добавлена.
 Это один из ключевых аспектов, по которому дистрибутивы Linux отличаются друг от друга.
@@ -6,6 +8,146 @@
 В отличие от Windows, в Unix-системах отсутствует понятие "расширение файла".
 
 Длинный формат опций помогает легче понимать, что они означают (те, которые начинаются с --). Опции можно комбинировать.
+
+#### JQ
+
+```zsh
+brew install jq
+```
+
+![json.txt](json.txt)
+
+```zsh
+cat json.txt | jq '.name'
+cat json.txt | jq '.location.city'
+cat json.txt | jq '.employees[0].name'
+cat json.txt | jq '.location | {street, city}'
+```
+
+#### GPG
+
+```zsh
+apt-get update && apt install -y gpg
+```
+
+```zsh
+gpg --full-gen-key
+```
+
+```zsh
+echo "keyid-format 0xlong 
+throw-keyids
+no-emit-version
+no-comments" > ~/.gnupg/gpg.conf
+```
+
+```zsh
+gpg -k,--list-keys <- PUB
+gpg -K,--list-secret-keys <- SEC
+```
+
+Экспорт своего приватного ключа
+```zsh
+gpg --export-secret-key -a,--armor -o,--output my_sec_key.gpg my_email@gmail.com
+```
+
+Экспорт своего публичного ключа, чтобы отправить его собеседнику
+```zsh
+gpg --export -a,--armor -o,--output my_pub_key.[pub|gpg] my_email@gmail.com
+```
+
+Импорт публичного ключа собеседника
+```zsh
+gpg --import interlocator's_pub_key.[pub|gpg]
+```
+
+Зашифровать файл my-secret-information.txt ключом собеседника
+```zsh
+gpg -e,--encrypt --sign [-a,--armor] -r,--recipient interlocator's_email@gmail.com my-secret-information.txt
+# gpg my-secret-information.txt.[asc|gpg]
+```
+Если вы указали флаг `--sign`, то к зашифрованному файлу будет добавлена цифровая подпись, чтобы убедиться в его подлинности.
+
+```zsh
+gpg -d,--decrypt -o,--output my-secret-information.txt my-secret-information.txt.[asc|gpg]
+```
+
+```zsh
+gpg --delete-secret-keys my_email@gmail.com 1
+gpg --delete-keys my_email@gmail.com 2
+```
+
+#### PASS
+
+```zsh
+apt-get update && apt-get install -y pass
+```
+
+```zsh
+pass init my_email@gmail.com
+```
+
+```zsh
+pass insert social/vk
+pass insert social/vk -m
+```
+  
+```zsh
+pass = tree
+```
+
+```zsh
+cat .password-store/social/vk.gpg
+pass social/vk
+```
+
+```zsh
+pass generate social/vk 15
+```
+
+```zsh
+pass rm social/vk
+```
+
+#### XXD
+
+```zsh
+echo hello_world > hello_world.txt
+```
+
+```zsh
+xxd hello_world.txt
+# 00000000: 6865 6c6c 6f2c 2077 6f72 6c64 0a         hello, world.
+```
+
+```zsh
+xxd -c 1 -b hello_world.txt
+# 00000000: 01101000  h
+# 00000001: 01100101  e
+# 00000002: 01101100  l
+# 00000003: 01101100  l
+# 00000004: 01101111  o
+# 00000005: 00101100  ,
+# 00000006: 00100000   
+# 00000007: 01110111  w
+# 00000008: 01101111  o
+# 00000009: 01110010  r
+# 0000000a: 01101100  l
+# 0000000b: 01100100  d
+# 0000000c: 00001010  .
+```
+	-c  # character
+	-b  # binary
+
+```zsh
+xxd -p calc.exe calc_dump.txt
+```
+```zsh
+xxd -r -p calc_dump.txt calc.exe
+```
+	-p,--plain  # flag specifies that the input is in plain hex format (without line numbers or ASCII representation)
+	-r,--reverse  # reversed
+
 
 ### НАВИГАЦИЯ
 
@@ -16,12 +158,10 @@ pwd
 ```zsh
 cd
 ```
-	. # из текущей директории на уровень ниже
+	.  # из текущей директории на уровень ниже
     ../..  # из текущей директории на уровень выше
 	 <без_аргументов>  # выброс в домашнюю директорию
      ~/  # заменяет абсолютный путь
-
----
 
 ```zsh
 tree
@@ -176,8 +316,7 @@ echo $MYVAR
 MYVAR1=1729 MYVAR2=1730 ... python script.py
 ```
 
-
-### АРХИВЫ
+#### АРХИВЫ
 
 ```zsh
 zip --help
@@ -583,47 +722,6 @@ man <command>
 ```zsh
 ping 8.8.8.8
 ```
-
----
-#### XXD
-
-```zsh
-echo hello_world > hello_world.txt
-```
-
-```zsh
-xxd hello_world.txt
-# 00000000: 6865 6c6c 6f2c 2077 6f72 6c64 0a         hello, world.
-```
-
-```zsh
-xxd -c 1 -b hello_world.txt
-# 00000000: 01101000  h
-# 00000001: 01100101  e
-# 00000002: 01101100  l
-# 00000003: 01101100  l
-# 00000004: 01101111  o
-# 00000005: 00101100  ,
-# 00000006: 00100000   
-# 00000007: 01110111  w
-# 00000008: 01101111  o
-# 00000009: 01110010  r
-# 0000000a: 01101100  l
-# 0000000b: 01100100  d
-# 0000000c: 00001010  .
-```
-	-c - character
-	-b - binary
-
-```zsh
-xxd -p calc.exe calc_dump.txt
-```
-```zsh
-xxd -r -p calc_dump.txt calc.exe
-```
-	-p - убрать справочную информацию
-	-r - reversed
-
 
 ---
 #### HOW TO CHECK FILE'S INTEGRITY BY DOWNLOADING THE SHA256 FILE
