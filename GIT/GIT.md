@@ -191,15 +191,15 @@ doc/**/*.txt
 ### ИНДЕКС
 
 ```zsh
-git add <path_to_dir_w_files_or_file>
+git add <path/to/file>
 ```
 	.  # добавление всех изменений в индекс
-	-i <path_to_dir_w_files_or_file>  # показывает измененные куски файлов и спрашивает, что с ними сделать
+	-i <path/to/file>  # показывает измененные куски файлов и спрашивает, что с ними сделать
 
 ```zsh
 git rm  # rm + git add
 ```
-	--cached <filename>  # if you want to remove files from the Git but keep the files in your local repository 
+	--cached <filename>  # if you want to remove files from the Git, but keep the files in your local repository 
 
 ### ОТМЕНА ИЗМЕНЕНИЙ В РАБОЧЕЙ ДИРЕКТОРИИ
 
@@ -244,9 +244,9 @@ git reset --hard origin/<remote_branch_name>
 ```zsh
 git commit
 ```
-	-m "<Комментарий>"
-    <Название файла> -m "<Комментарий>"  # только для отслеживаемых файлов
-    -am "<Комментарий>"  # добавление всего в индекс, а затем - коммит
+	-m "<comment>"
+    <filename> -m "<comment>"  # только для отслеживаемых файлов
+    -am "<comment>"  # добавление всего в индекс, а затем - коммит
     --amend  # добавление изменений в текущий коммит, + -m, чтобы изменить навзвание коммита напрямую, без редактора
 	--no-edit  # без редактора
 
@@ -287,14 +287,14 @@ git reset --hard <хэш_последнего_коммита>
 ### PUSH
 
 ```zsh
-git push <remote> <branch>
+git push <remote_name> <branch_name>
 ```
-	можно и без аргументов, но тогда это будет непринудительный push, то есть если голова указывает не на удаленную ветку, то ничего не произойдет
-	<remote> <source>:<target>  # можно использовать относительные ссылки; если источник пустой, то target удаляется
-    -u, --set-upstream <remote> <branch>  # для связи локальной ветки с веткой удалённого репозитория
-    -f, --force <remote> <branch>  # удаляет из ветки на сервере все коммиты, которых нет в локальной версии, и записывает новые
-    --force-with-lease <remote> <branch>  # заставляет команду завершиться с ошибкой, если в удалённом репозитории есть коммиты, добавленные другими пользователям
-    --all <remote>  # push all of your local branches
+	Можно и без аргументов, но тогда это будет непринудительный push, то есть если голова указывает не на удаленную ветку, то ничего не произойдет.
+	<remote_name> <source>:<target>  # можно использовать относительные ссылки; если источник пустой, то target удаляется
+    -u, --set-upstream <remote_name> <branch_name>  # для связи локальной ветки с веткой удалённого репозитория
+    -f, --force <remote_name> <branch_name>  # удаляет из ветки на сервере все коммиты, которых нет в локальной версии, и записывает новые
+    --force-with-lease <remote_name> <branch_name>  # заставляет команду завершиться с ошибкой, если в удалённом репозитории есть коммиты, добавленные другими пользователям
+    --all <remote_name>  # push all of your local branches
 
 [Откат ошибочной команды `git push --force`](https://gist.github.com/Envek/13d9e406bb2af23f739197e3934ad4f0)
 
@@ -530,7 +530,6 @@ git update-ref refs/tags/<tag-name>. # его восставление
 git describe <branch_name>, <commit>, HEAD (by default) ---> <tag>_<num_commits>_g<hash_current_commit>
 ```
 
-
 ```zsh
 git tag новое-название-тега старое-название-тега
 git tag -d старое-название-тега
@@ -572,11 +571,11 @@ git cat-file -p <hash_commit>
 
 ```zsh
 git checkout <filename>  # если вы случайно удалили файл
-git checkout $<хэш> <filename>  # если требуется восстановить файл из конкретной временной точки истории коммитов
+git checkout $<hash> <filename>  # если требуется восстановить файл из конкретной временной точки истории коммитов
 ```
 
-### TODO
+### TO-DO
 
 1. [git bisect](https://habr.com/ru/articles/591447/)
-2. [pre-commit](https://www.youtube.com/watch?v=p2hAddDJ96E&t=1389s)
-3. [git submodule](https://radioprog.ru/post/1395)
+2. [git submodule](https://radioprog.ru/post/1395)
+3. [pre-commit](https://www.youtube.com/watch?v=p2hAddDJ96E&t=1389s)
