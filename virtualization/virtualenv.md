@@ -13,7 +13,7 @@ sudo python3 -m pip install virtualenv
 ------------------------------------------------------------------------------------------------------------------------
 
 ```zsh
-mkdir <env_name>; cd ./<env_name>
+cd ~/<envs_dir>
 virtualenv --python=python3 <env_name>
 virtualenv --python=/path/to/python-3.x.x/bin/python <env_name>
 ```

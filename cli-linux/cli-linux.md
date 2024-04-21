@@ -148,6 +148,9 @@ xxd -r -p calc_dump.txt calc.exe
 	-p,--plain  # flag specifies that the input is in plain hex format (without line numbers or ASCII representation)
 	-r,--reverse  # reversed
 
+#### DOTENV
+
+[github.com/theskumar/python-dotenv](https://github.com/theskumar/python-dotenv)
 
 ### НАВИГАЦИЯ
 
@@ -181,9 +184,7 @@ or
 ```zsh
 export (-p)
 ```
-	If you wish to view all exported variables on the current shell and for exporting to child shells.
-
-
+If you wish to view all exported variables on the current shell and for exporting to child shells.
 #### Просмотреть определенную переменную
 
 ```zsh
@@ -193,8 +194,6 @@ or
 ```zsh
 printenv <ENV_VAR>
 ```
-
-
 #### Экспорт переменных
 
 ```zsh
@@ -208,30 +207,26 @@ echo $MYVAR
 vs
 ```zsh
 MYVAR=1729
-echo $MYVAR
+echo $MYVAR  # 'printenv MYVAR' не работает в данном случае
 # 1729
 bash
 echo $MYVAR
 # 
 ```
 
-
 ```zsh
-<ENV_VAR>='<value>' <command>
+<ENV_VAR>='<value>' ... <command>
 ```
-	Изменение для запущенной команды, НЕ для текущей сессии!
-
+Изменение для запущенной команды, НЕ для текущей сессии!
 
 ```zsh
  export <ENV_VAR>=$<EXISTING_ENV_VAR>
 ```
 
-
 ```zsh
 export <ENV_VAR>='<value>'
 ```
-	Глобальный способ задания значения переменной для текущей сессии.
-
+Глобальный способ задания значения переменной для текущей сессии.
 
 ```zsh
 func() { echo "hi"; }
@@ -246,8 +241,7 @@ bash
 func
 # hi
 ```
-	На MacOS не работает, на Linux - да.
-
+На MacOS не работает, на Linux — да.
 
 #### PATH
 
@@ -263,9 +257,7 @@ export PATH=$PATH:/path/to/file
 
 Для вновь устанавливаемых программ обычно это `/usr/local/bin`.
 
-> **Note**
-> Прямой запуск программ всегда должен быть путём до файла, например, `/path/to/executable/file` или `./`. Ради безопасности.
-
+Прямой запуск программ всегда должен быть путём до файла, например, `/path/to/executable/file` или `./`. Ради безопасности!
 
 #### SET
 
@@ -273,7 +265,6 @@ export PATH=$PATH:/path/to/file
 ```set
 set 
 ```
-
 
 Удалить локальную переменную:
 ```zsh
@@ -312,10 +303,6 @@ echo $MYVAR
 # 1729
 ```
 
-```zsh
-MYVAR1=1729 MYVAR2=1730 ... python script.py
-```
-
 #### АРХИВЫ
 
 ```zsh
@@ -332,6 +319,8 @@ vim <filename>
 vi <filename>
 nano <filename>
 ```
+
+[How do I exit from Vim?](how-do-I-exit-from-vim.md)
 
 #### Чтение файлов
 
@@ -751,9 +740,5 @@ sha256sum openssl-1.1.1g.tar.gz
 cat openssl-1.1.1g.tar.gz.sha256
 ddb04774f1e32f0c49751e21b67216ac87852ceb056b75209af2443400636d46
 ```
-
----
 #### Как хранить/юзать ключи в проекте
 	setenv.sh -> .gitignore
-
----

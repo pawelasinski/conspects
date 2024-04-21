@@ -53,12 +53,6 @@
 					* [f-строки](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/stroki-formatirovannye-stroki/)
 					* [Метод format()](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-format/)
 					* [Форматирование строк в стиле printf](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/formatirovanie-strok-stile-printf/)
-				* О регулярных выражениях:
-					* [Регулярные выражения (Regexp) | Hexlet](https://ru.hexlet.io/courses/regexp)
-					* [Кратко о регулярных выражениях и модуле re](https://tproger.ru/translations/regular-expression-python/)
-					* [Использование регулярных выражение, модуль re](https://docs-python.ru/standart-library/modul-re-python/)
-					* [Туториал по регулярным выражениям](https://youtube.com/playlist?list=PLA0M1Bcd0w8w8gtWzf9YkfAxFCgDb09pA)
-					* [Логические операции в регулярных выражениях](http://www.skillz.ru/dev/php/article-Logicheskie_operacii_v_regulyarnyx_vyrazheniyax.html)
 				* [Текстовые константы и шаблоны, модуль string](https://docs-python.ru/standart-library/modul-string-python/)
 			* [Общие операции с последовательностями](https://docs-python.ru/tutorial/obschie-operatsii-posledovatelnostjami-list-tuple-str-python/)
 			* Словарь:
