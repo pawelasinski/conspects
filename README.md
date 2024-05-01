@@ -132,9 +132,13 @@
 
 * ! О сетях:
 	* Куроуз Джеймс, Росс Кит — Компьютерные сети. Нисходящий подход
-	* [Введение в интернет | Hexlet](https://ru.hexlet.io/courses/internet-fundamentals)
 	* [История браузеров | BIG GEEK](https://youtu.be/S3chACq9dyo)
+	* [Введение в интернет | Hexlet](https://ru.hexlet.io/courses/internet-fundamentals)
 	* [Кратко о модели OSI | Merion Academy](https://youtu.be/je0QFU7p5Oo), and so on.
+	* [Кратко об API | Merion Academy](https://youtu.be/fXa_2rllZTI)
+		* [HTTP API | Helxet](https://ru.hexlet.io/courses/http-api)
+	* [Кратко об архитектуре REST | Merion Academy](https://youtu.be/08-RlaLgWx4) + [Кратко о HTTP/S | Merion Academy](https://youtu.be/C9T_7D12URI)
+		* [Протокол HTTP | Hexlet](https://ru.hexlet.io/courses/http_protocol)
 		- [HTTP Code Cats](https://http.cat)
 
 

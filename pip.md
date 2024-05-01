@@ -56,7 +56,7 @@ pip uninstall <package_name>
 pip list
 pip list -o,--outdated
 pip show <package_name>
-pip search <package_name>
+[DEPRECATED] pip search <package_name>
 pip check <package_name>  # проверяет, что установленный пакет имеет совместимые зависимости
 ```
 
