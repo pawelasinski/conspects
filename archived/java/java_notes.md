@@ -1,6 +1,5 @@
 
-![JDK](JDK.png)
-
+![](_java_pictures/JDK.png)
 ## 1. Verifying Your JDK Installation
 
 To ensure the Java compiler is correctly installed, run:
