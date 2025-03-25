@@ -2,4 +2,4 @@
 * [Использование регулярных выражение, модуль re](https://docs-python.ru/standart-library/modul-re-python/)
 * [Логические операции в регулярных выражениях](http://www.skillz.ru/dev/php/article-Logicheskie_operacii_v_regulyarnyx_vyrazheniyax.html)
 
-![](_regexp_pictures/regexp-cheetsheet.png)
+![](regexp_cheetsheet.png)
