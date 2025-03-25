@@ -156,6 +156,10 @@ Shows packages for which newer versions are available:
 pip list --outdated
 ```
 
+```zsh
+pip list --outdated --format=columns | tail -n +3 | awk '{print $1}' | xargs -n1 pip install -U
+pip list --outdated --format=json | jq -r '.[].name' | xargs -n1 pip install -U
+```
 ### C. Detailed information about a package
 
 Provides details about a specific package, including its dependencies and installation path:
