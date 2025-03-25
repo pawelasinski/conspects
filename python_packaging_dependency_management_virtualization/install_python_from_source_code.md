@@ -43,8 +43,8 @@ Append the following lines (adjust the OpenSSL version/path if necessary):
 
 ```bash
 export PATH=/opt/homebrew/opt/openssl@3.1/bin:$PATH
-export LD_LIBRARY_PATH=/opt/homebrew/opt/openssl@3.1/lib
-export LDFLAGS="-L /opt/homebrew/opt/openssl@3.1/lib -Wl,-rpath,/opt/homebrew/opt/openssl@3.1/lib"
+export LD_LIBRARY_PATH=/opt/homebrew/opt/openssl@3.1/lib:$LD_LIBRARY_PATH
+export LDFLAGS="-L/opt/homebrew/opt/openssl@3.1/lib -Wl,-rpath,/opt/homebrew/opt/openssl@3.1/lib"
 ```
 
 Reload your shell configuration:
